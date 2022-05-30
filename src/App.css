@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+.App{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.QuoteBox{
+    background-color: white;
+    padding: 30px;
+    width: min(400px, 80%);
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px 0 #0007;
+}
+.box_tittle{
+    font-size: 30px;
+}
+.box_list{
+    font-size: 20px;
+}
+.box_btn{
+    width: 40px;
+    font-size: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: block; 
+    border: none;
+    color: white;
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 0 #000a;
+}
+
+.card_btn:active{
+    box-shadow: 0 0 0 0 #000a;
+    transition: box-shadow 200ms ease;
+}
